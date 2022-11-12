@@ -1,0 +1,15 @@
+.comments {
+  margin: 1.5rem 0;
+}
+
+.comments h2 {
+  margin: 1rem 0;
+  font-size: 1.35rem;
+  text-align: center;
+}
+
+.content {
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+}

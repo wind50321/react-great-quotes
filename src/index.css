@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.line-center {
+  text-align: center;
+}
+
+.block-center {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.focus {
+  font-size: 1.2rem;
+}
+
+.error {
+  font-size: 1.2rem;
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #008080;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}

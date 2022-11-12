@@ -1,0 +1,33 @@
+.item {
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-radius: 6px;
+  background-color: #c2e7f0;
+}
+
+.item blockquote {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #212929;
+}
+
+.item figcaption {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #566d6d;
+}
+
+.link {
+  text-align: right;
+}
+
+@media (min-width: 640px) {
+  .item {
+    flex-direction: row;
+    align-items: center;
+  }
+}
